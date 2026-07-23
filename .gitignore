@@ -1,0 +1,7 @@
+#dataset files
+data/
+output/*.tif
+output/*.gpkg
+output/*.csv
+output/*.plan
+output/*.geojson
