@@ -351,31 +351,31 @@ def run_spray_mask_cleaning():
 
     initial_patch_area_m2 = ask_nonnegative_float(
         "Enter the initial minimum patch area in m²",
-        default=121.5,
+        default=25.0,
         allow_zero=False,
     )
 
     closing_distance_m = ask_nonnegative_float(
         "Enter the closing distance in metres",
-        default=2.70,
+        default=5.0,
         allow_zero=True,
     )
 
     maximum_hole_area_m2 = ask_nonnegative_float(
         "Enter the maximum hole area to fill in m²",
-        default=162.0,
+        default=9.0,
         allow_zero=True,
     )
 
     opening_distance_m = ask_nonnegative_float(
         "Enter the opening distance in metres",
-        default=2.25,
+        default=4.0,
         allow_zero=True,
     )
 
     final_patch_area_m2 = ask_nonnegative_float(
         "Enter the final minimum patch area in m²",
-        default=243.0,
+        default=144.0,
         allow_zero=False,
     )
 
