@@ -703,31 +703,31 @@ def main():
     parser.add_argument(
         "--initial-patch-area-m2",
         type=float,
-        default=121.5,
+        default=25.0,
     )
 
     parser.add_argument(
         "--closing-distance-m",
         type=float,
-        default=2.70,
+        default=5.0,
     )
 
     parser.add_argument(
         "--maximum-hole-area-m2",
         type=float,
-        default=162.0,
+        default=9.0,
     )
 
     parser.add_argument(
         "--opening-distance-m",
         type=float,
-        default=2.25,
+        default=4.0,
     )
 
     parser.add_argument(
         "--final-patch-area-m2",
         type=float,
-        default=243.0,
+        default=144.0,
     )
 
     parser.add_argument(
