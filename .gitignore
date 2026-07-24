@@ -5,3 +5,4 @@ output/*.gpkg
 output/*.csv
 output/*.plan
 output/*.geojson
+scripts/__pycache__/*
